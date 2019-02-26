@@ -13,6 +13,11 @@ function seno() {
 	num.value = Math.sin((num.value*Math.PI)/180);
 }
 
+function potencia4() {
+	var num = document.getElementById("n1");  
+	num.value = Math.pow(num.value, 4);
+}
+
 </script>
 </head>
 <body>  
@@ -24,6 +29,9 @@ function seno() {
 	</p>
 	<p>    
 	 <button onclick="seno()"> seno x </button>
+	</p>
+	<p>    
+	 <button onclick="potencia4()"> x^4 </button>
 	</p>
 </body>
 </html>
